@@ -1,6 +1,6 @@
 # Zabbix Installation
 
-* # apt-get install php7.0-bcmath php7.0-xml php7.0-mbstring
+> # apt-get install php7.0-bcmath php7.0-xml php7.0-mbstring
 
 * $ wget http://repo.zabbix.com/zabbix/3.2/ubuntu/pool/main/z/zabbix-release/zabbix-release_3.2-1+xenial_all.deb
 
