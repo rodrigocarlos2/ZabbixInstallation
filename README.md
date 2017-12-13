@@ -24,6 +24,8 @@
 
 > apt install zabbix-server-mysql
 
+> sudo apt install zabbix-proxy-mysql
+
 > # zcat /usr/share/doc/zabbix-server-mysql/create.sql.gz | mysql -uzabbix -p zabbix
 
 > # $EDITOR /etc/zabbix/zabbix_server.conf
