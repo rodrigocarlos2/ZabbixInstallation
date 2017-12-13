@@ -2,9 +2,9 @@
 
 > # apt-get install php7.0-bcmath php7.0-xml php7.0-mbstring
 
-> $ wget http://repo.zabbix.com/zabbix/3.2/ubuntu/pool/main/z/zabbix-release/zabbix-release_3.2-1+xenial_all.deb
+> $ wget http://repo.zabbix.com/zabbix/3.0/ubuntu/pool/main/z/zabbix-release/zabbix-release_3.0-2+xenial_all.deb
 
-> # dpkg -i zabbix-release_3.2-1+xenial_all.deb
+> # dpkg -i zabbix-release_3.0-2+xenial_all.deb
 
 > # apt-get update
 
@@ -23,8 +23,6 @@
 > mysql> EXIT;
 
 > apt install zabbix-server-mysql
-
-> sudo apt install zabbix-proxy-mysql
 
 > # zcat /usr/share/doc/zabbix-server-mysql/create.sql.gz | mysql -uzabbix -p zabbix
 
